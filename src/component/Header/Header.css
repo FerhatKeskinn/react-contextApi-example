@@ -1,0 +1,13 @@
+.header {
+    padding-bottom: 65px;
+}
+
+.header__table {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(164, 155, 155);
+}
+
+.header tbody {
+    height: 60px;
+}

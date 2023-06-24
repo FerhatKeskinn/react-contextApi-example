@@ -1,0 +1,38 @@
+.basket-card {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .basket-card {
+    width: unset;
+  }
+}
+
+.basket-cared__inner {
+  padding: 20px;
+}
+
+.basket-card__selectedİtem {
+  white-space: nowrap;
+}
+
+.basket-card__selectedİtem p {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+.basket-card__totolAmount {
+  font-weight: 600;
+}
+
+p {
+  padding: 0px;
+}
